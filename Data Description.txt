@@ -1,0 +1,19 @@
+Product Table:
+Columns: product_name (varchar), product_id (varchar), description (varchar)
+Description: Contains information about various products, including their names, unique IDs, and descriptions.
+
+Finance Table:
+Columns: product_id (varchar), listing_price (float), sale_price (float), discount (float), revenue (float)
+Description: Stores financial details related to products, such as their listing prices, sale prices, discounts, and generated revenue.
+
+Reviews Table:
+Columns: product_name (varchar), product_id (varchar), rating (float), reviews (float)
+Description: Holds information about product ratings and reviews, including the product's name, unique ID, average rating, and the number of reviews.
+
+Traffic Table:
+Columns: product_id (varchar), last_visited (timestamp)
+Description: Tracks website traffic by recording the date and time a product was last viewed on the website, identified by its unique ID.
+
+Brands Table:
+Columns: product_id (varchar), brand (varchar)
+Description: Contains data about product brands, associating each product with a particular brand.
